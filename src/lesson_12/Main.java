@@ -17,6 +17,11 @@ public class Main {
 
         System.out.println("Car speed: " + car.speed + ".");
         System.out.println("Truck weight: " + truck.weight + ".");
+        System.out.println(truck.getValues());
+
+        Transport bus = new Transport();
+        bus.setValues(300.4f, 5000, "Yellow", new byte[] {0, 0, 0});
+        System.out.println(bus.getValues());
     }
 
 }
